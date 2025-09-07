@@ -96,7 +96,7 @@ MOVING_BLOCKER_HEIGHT = 30.0
 
 # Snow 
 SNOW_ENABLED = True
-SNOW_COUNT = 250
+SNOW_COUNT = 240
 SNOW_TOP_Z = 380.0
 SNOW_BOTTOM_Z = 0.0
 snow = []
@@ -490,7 +490,7 @@ def apply_ramp():
     global difficulty_level, PLAYER_SPEED_BASE, ENEMY_SPEED_MULT, ITEM_SPEED_MULT, SPAWN_INTERVAL_MULT, ROW_INTERVAL_MULT, MAX_ENEMIES
     difficulty_level += 1
     PLAYER_SPEED_BASE += 14.0
-    ENEMY_SPEED_MULT *= 1.06
+    ENEMY_SPEED_MULT *= 1.05
     ITEM_SPEED_MULT  *= 1.04
     SPAWN_INTERVAL_MULT = max(0.55, SPAWN_INTERVAL_MULT * 0.92)
     ROW_INTERVAL_MULT   = max(0.60, ROW_INTERVAL_MULT   * 0.94)
@@ -681,7 +681,7 @@ def draw_tunnel():
         y0 = start + k*seg_len
         y1 = y0 + seg_len
         glBegin(GL_QUADS)
-        glColor3f(0.7, 0.8, 1.0)
+        glColor3f(0.68, 0.82, 1.0)
         glVertex3f(-LANE_W*1.8, y0, z_floor); glVertex3f(-LANE_W*1.5, y0, z_floor)
         glVertex3f(-LANE_W*1.5, y0, ceil_z); glVertex3f(-LANE_W*1.8, y0, ceil_z)
         glVertex3f(-LANE_W*1.8, y1, z_floor); glVertex3f(-LANE_W*1.5, y1, z_floor)
