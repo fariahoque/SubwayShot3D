@@ -20,19 +20,18 @@ Features
 
 Endless 3-lane runner with enemies & pickups
 
-Bullets, collisions, hurdles, pillars, moving blockers (solid — bullets stop)
+Bullets, collisions, hurdles, pillars, moving blockers 
 
 Boost/Slow zones, coins, lives, score multiplier, streak rewards
 
 Dynamic difficulty ramp every 30s
 
-HUD with custom bitmap font (no external text API)
-
+HUD with custom bitmap font 
 Snow particle effect
 
 First/third-person camera
 
-Contribution
+Contribution:
 
 Faria Hoque Tazree: Core gameplay loop & state machine, player movement/jump arc, HUD, collision system (including bullet vs solid obstacles), cheat autopilot (auto-aim/fire/jump + lane switch)
 
