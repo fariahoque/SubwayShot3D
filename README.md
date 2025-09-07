@@ -37,4 +37,5 @@ Contribution
 Faria Hoque Tazree: Core gameplay loop & state machine, player movement/jump arc, HUD, collision system (including bullet vs solid obstacles), cheat autopilot (auto-aim/fire/jump + lane switch)
 
 Pushpita Ghosh: Tunnel/floor visuals, color palette, snow effect tuning, difficulty ramp & tuning
+
 Mehreen Momtaz: Playtesting, parameter balancing (speed, spawn rates), bugfix logs
